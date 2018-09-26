@@ -32,101 +32,9 @@ export default class Questions extends Component{
         console.log(selectedQuestion,btnSelected);
         switch(selectedQuestion){
             case 0:
-                switch(btnSelected){
-                    case 1:
-                        document.getElementById(selectedQuestion).innerHTML+="1.Most Disliked";
-                    break;
-
-                    case 2:
-                        document.getElementById(selectedQuestion).innerHTML+="2.Dislike";
-                    break;
-
-                    case 3:
-                        document.getElementById(selectedQuestion).innerHTML+="3.Like";
-                    break;
-
-                    case 4:
-                        document.getElementById(selectedQuestion).innerHTML+="4.Brillient Response";
-                    break;
-
-                    case 5:
-                        document.getElementById(selectedQuestion).innerHTML+="5.Outstanding Response";
-                    break;
-                }
-            break;
-
             case 1:
-                switch(btnSelected){
-                    case 1:
-                    document.getElementById(selectedQuestion).innerHTML+="1.Most Disliked";
-                    break;
-
-                    case 2:
-                        document.getElementById(selectedQuestion).innerHTML+="2.Dislike";
-                    break;
-
-                    case 3:
-                        document.getElementById(selectedQuestion).innerHTML+="3.Like";
-                    break;
-
-                    case 4:
-                        document.getElementById(selectedQuestion).innerHTML+="4.Brillient Response";
-                    break;
-
-                    case 5:
-                        document.getElementById(selectedQuestion).innerHTML+="5.Outstanding Response";
-                    break;
-                }
-            break;
-
             case 2:
-                switch(btnSelected){
-                    case 1:
-                        document.getElementById(selectedQuestion).innerHTML+="1.Most Disliked";
-                    break;
-
-                    case 2:
-                        document.getElementById(selectedQuestion).innerHTML+="2.Dislike";
-                    break;
-
-                    case 3:
-                        document.getElementById(selectedQuestion).innerHTML+="3.Like";
-                    break;
-
-                    case 4:
-                        document.getElementById(selectedQuestion).innerHTML+="4.Brillient Response";
-                    break;
-
-                    case 5:
-                        document.getElementById(selectedQuestion).innerHTML+="5.Outstanding Response";
-                    break;
-                }
-            break;
-
             case 3:
-                switch(btnSelected){
-                    case 1:
-                        document.getElementById(selectedQuestion).innerHTML+="1.Most Disliked";
-                    break;
-
-                    case 2:
-                        document.getElementById(selectedQuestion).innerHTML+="2.Dislike";
-                    break;
-
-                    case 3:
-                        document.getElementById(selectedQuestion).innerHTML+="3.Like";
-                    break;
-
-                    case 4:
-                        document.getElementById(selectedQuestion).innerHTML+="4.Brillient Response";
-                    break;
-
-                    case 5:
-                        document.getElementById(selectedQuestion).innerHTML+="5.Outstanding Response";
-                    break;
-                }
-            break;
-
             case 4:
                 switch(btnSelected){
                     case 1:
@@ -151,6 +59,7 @@ export default class Questions extends Component{
                 }
             break;
 
+           
             default:
                 console.log("The Default Case");
 
