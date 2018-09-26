@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 
 import Questions from './components/questions';
-import Smileys from './components/smileys';
 
 class App extends Component {
   render() {
