@@ -10,7 +10,7 @@ export default class Questions extends Component{
         this.state = {
             questions:[],
             // smileyResponses:["1.Most Disliked","2.Dislike","3.Like","4.Brillient Response","5.Outstanding Response"], as of now I see no use of this state
-            catalist:false,
+            catalist:false, //trying to reRender the state by toggling between this value
             buttonIds:[1,2,3,4,5]
         }
     }
