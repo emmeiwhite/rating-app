@@ -44,8 +44,8 @@ export default class Questions extends Component{
         return(
                   this.state.questions.map((question,index)=>{
                         return (
-                        <div className="row">
-                                <div key={question.id} className="questions" className="col-md-8">
+                        <div className="row" key={question.id}>
+                                <div  className="questions" className="col-md-8">
                                     <p>{question.question}</p>
                                     <button>1</button>
                                     <button>2</button>
@@ -55,7 +55,7 @@ export default class Questions extends Component{
                                 </div>
 
                                 <div className="col-md-4">
-                                    <Smileys key={index}/>
+                                    <Smileys/>
                                 </div>
                         </div>
                        );
